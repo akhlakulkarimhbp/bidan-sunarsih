@@ -26,84 +26,26 @@
         tools:layout_editor_absoluteX="-170dp"
         tools:layout_editor_absoluteY="-125dp" />
 
-    <Button
-        android:id="@+id/btnLogin"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="78dp"
-        android:layout_height="39dp"
-        android:text="Log out"
-        android:textAllCaps="false"
-        android:shadowColor="#ffffff"
-        android:textSize="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="7dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="417dp"
-        android:layout_height="207dp"
-        app:srcCompat="@drawable/haha"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="55dp"
-        tools:ignore="MissingConstraints" />
-
-
-    <View
-        android:id="@+id/view2"
-        android:layout_width="138dp"
-        android:layout_height="165dp"
-        android:background="#F3EFEF"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="276dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="137dp"
-        android:layout_height="109dp"
-        app:srcCompat="@drawable/registration"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="276dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="139dp"
-        android:layout_height="60dp"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
         android:text="Antrian Saat ini"
         android:textAllCaps="false"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="230dp"
-        tools:layout_editor_absoluteY="381dp" />
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="79dp" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="136dp"
+        android:layout_width="411dp"
         android:layout_height="58dp"
         android:text="Pendaftaran Online"
         android:textAllCaps="false"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="382dp" />
-
-    <View
-        android:id="@+id/view4"
-        android:layout_width="138dp"
-        android:layout_height="164dp"
-        android:background="#F3EFEF"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="278dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="137dp"
-        android:layout_height="109dp"
-        app:srcCompat="@drawable/add"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="276dp" />
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="677dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

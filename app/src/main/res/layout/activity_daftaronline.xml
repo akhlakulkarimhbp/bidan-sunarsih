@@ -30,24 +30,5 @@
         tools:layout_editor_absoluteX="-80dp"
         tools:layout_editor_absoluteY="-125dp" />
 
-    <Button
-        android:id="@+id/btnLogin"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="78dp"
-        android:layout_height="39dp"
-        android:text="Log out"
-        android:textAllCaps="false"
-        android:shadowColor="#ffffff"
-        android:textSize="10dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="317dp"
-        tools:layout_editor_absoluteY="7dp" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="145dp"
-        tools:layout_editor_absoluteY="203dp"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
