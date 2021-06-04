@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,17 +15,17 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-2dp"
+        tools:layout_editor_absoluteY="0dp"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="547dp"
-        android:layout_height="302dp"
-        app:srcCompat="@drawable/home"
+        android:layout_width="536dp"
+        android:layout_height="303dp"
+        android:src="@drawable/home"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-81dp"
-        tools:layout_editor_absoluteY="-125dp" />
+        tools:layout_editor_absoluteX="-69dp"
+        tools:layout_editor_absoluteY="-126dp" />
 
 
     <Button

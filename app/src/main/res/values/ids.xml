@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="editText_nomorktp" type="id" />
-    <item name="textView_nomorktp" type="id">nomor_ktp</item>
-    <item name="textView_nama" type="id">nama</item>
-    <item name="editText_nama" type="id">nama</item>
-</resources>
