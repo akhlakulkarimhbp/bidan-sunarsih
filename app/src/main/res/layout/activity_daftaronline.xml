@@ -21,14 +21,131 @@
         tools:layout_editor_absoluteY="-2dp"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
+        <ImageView
         android:id="@+id/imageView"
         android:layout_width="547dp"
         android:layout_height="302dp"
         android:src="@drawable/home"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-80dp"
-        tools:layout_editor_absoluteY="-125dp" />
+        tools:layout_editor_absoluteX="-84dp"
+        tools:layout_editor_absoluteY="-126dp" />
+
+    <TextView
+        android:id="@+id/textView_nomorktp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor Ktp :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="82dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText_nomorktp"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="masukkan nomor ktp"
+        android:inputType="number"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:id="@+id/textView_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/editText_nama"
+        android:layout_width="306dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="masukkan nama"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <!--suppress AndroidDomInspection -->
+    <TextView
+        android:id="@+id/textView_notlp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor telepon :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:ignore="MissingConstraints" />
+
+    <!--suppress AndroidDomInspection -->
+    <EditText
+        android:id="@+id/editTextPhone_notlp"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="228dp"
+        android:hint="masukkan nomor telepon"
+        tools:ignore="MissingConstraints" />
+
+    <!--suppress AndroidDomInspection -->
+    <TextView
+        android:id="@+id/textView_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat :"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="274dp"
+        tools:ignore="MissingConstraints" />
+
+    <!--suppress AndroidDomInspection -->
+    <EditText
+        android:id="@+id/editTextTextPostalAddress_alamat"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="masukkan alamat"
+        android:inputType="textPostalAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <!--suppress AndroidDomInspection -->
+    <Button
+        android:id="@+id/button_daftar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <!--suppress AndroidDomInspection -->
+    <Button
+        android:id="@+id/button_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kembali"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="424dp"
+        tools:ignore="MissingConstraints" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</EditText>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

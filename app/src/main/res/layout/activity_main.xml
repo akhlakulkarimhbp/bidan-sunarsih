@@ -23,7 +23,7 @@
         android:layout_height="302dp"
         app:srcCompat="@drawable/home"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-170dp"
+        tools:layout_editor_absoluteX="-81dp"
         tools:layout_editor_absoluteY="-125dp" />
 
 
